@@ -63,28 +63,13 @@ async function getBackgroundImg(){
     }else if(hour>=08 && hour<=11 ){
         debugger;
         bg = "sunrise3.png";
-    }else if(hour>=11 && hour<=13){
+    }else if(hour>=11 && hour<=17){
         debugger;
         bg = "sunrise4.png";
-    }else if(hour>=13 && hour<=15){
-        debugger;
-        bg = "sunrise5.png";
-    }else if(hour>=15 && hour<=17 ){
-        debugger;
-        bg = "sunrise6.png";
-    }else if(hour>=17 && hour<=18 ){
-        debugger;
-        bg = "sunset7.png";
-    }else if(hour>=18 && hour<=20 ){
-        debugger;
-        bg = "sunset8.png";
-    }else if(hour>=20 && hour<=23 ){
-        debugger;
-        bg = "sunset9.png";
-    }else if(hour>=23 && hour==0){
+    }else if(hour>=17 && hour<=21 ){
         debugger;
         bg = "sunset10.png";
-    }else if(hour==0 && hour<=03){
+    }else if(hour>=21 && hour<=30 ){
         debugger;
         bg = "sunset11.png";
     }else{
